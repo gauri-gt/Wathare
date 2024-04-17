@@ -1,0 +1,65 @@
+.time-scale-container {
+  width: 100%;
+  height: 50px; /* Adjust height as needed */
+  padding: 0 10px; /* Add space on both sides */
+}
+
+.time-scale {
+  width: calc(100% - 20px); /* Adjust width to accommodate padding */
+  height: 100%;
+  position: relative;
+}
+
+.segment {
+  position: absolute;
+  height: 100%;
+}
+
+.segment-0 {
+  background-color: yellow; /* Color for machine status 0 */
+}
+
+.segment-1 {
+  background-color: green; /* Color for machine status 1 */
+}
+
+.segment-missing {
+  background-color: red; /* Color for missing data */
+}
+
+/* TimeScale.css */
+
+/* Controller bar */
+.controller-bar {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px; /* Add margin as needed */
+}
+
+/* Duration selector */
+.controller-bar select {
+  padding: 5px;
+  font-size: 16px;
+}
+
+/* Navigation buttons */
+.controller-bar button {
+  padding: 5px 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  background-color: #007bff; /* Blue background color */
+  color: #fff; /* White text color */
+  border-radius: 4px;
+}
+
+.controller-bar button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.title{
+  padding-left: 10px;
+  font-size: 25px;
+  font-weight: bold;
+}
+

@@ -1,0 +1,20 @@
+/* Header.css */
+
+.myclass {
+    height: 60px;
+    width: 100%;
+    background-color: #f0f0f0; /* Decent background color */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px; /* Adjust padding as needed */
+  }
+  
+  .myclass span {
+    color: #007bff; /* Blue text color */
+  }
+  
+  .brand {
+    font-size: 1.2em; /* Adjust font size as needed */
+  }
+  
